@@ -15,7 +15,7 @@ colcon build
 ```
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 cpp_pubsub
 ```
-> Create Demo Publisher
+### Create Demo Publisher
 ```
 #include <chrono>
 #include <memory>
