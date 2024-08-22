@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000658] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000734] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005603] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.010352] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.010807] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.011256] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astrox/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/astrox/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'astrox', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/astrox', 'OLDPWD': '/home/astrox', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/astrox/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'astrox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrox:@/tmp/.ICE-unix/2818,unix/astrox:/tmp/.ICE-unix/2818', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cee7480f_a4e6_46a3_9efd_77bfe1a61590', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.438', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astrox/ros2_ws/install/py_pubsub:/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrox/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.053541] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_publisher.cpp.o\x1b[0m\n'}
+[0.053809] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/cpp_subscriber.cpp.o\x1b[0m\n'}
+[0.099874] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.300376] (-) TimerEvent: {}
+[0.400563] (-) TimerEvent: {}
+[0.500752] (-) TimerEvent: {}
+[0.600940] (-) TimerEvent: {}
+[0.701172] (-) TimerEvent: {}
+[0.737846] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/astrox/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/astrox/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/astrox/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'astrox', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/astrox', 'OLDPWD': '/home/astrox', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/astrox/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'astrox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrox:@/tmp/.ICE-unix/2818,unix/astrox:/tmp/.ICE-unix/2818', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cee7480f_a4e6_46a3_9efd_77bfe1a61590', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.438', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astrox/ros2_ws/install/py_pubsub:/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrox/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrox/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801288] (-) TimerEvent: {}
+[0.901482] (-) TimerEvent: {}
+[1.001673] (-) TimerEvent: {}
+[1.003386] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.022023] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.022231] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.022415] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.022658] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.022747] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.060146] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.060373] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.060789] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.060961] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.061046] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.061136] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/py_publisher.py -> /home/astrox/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.061221] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/py_subscriber.py -> /home/astrox/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.061337] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.066867] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.086382] (py_pubsub) StdoutLine: {'line': b'copying /home/astrox/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_publisher.py -> /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[1.086593] (py_pubsub) StdoutLine: {'line': b'copying /home/astrox/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_subscriber.py -> /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[1.086932] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_publisher.py to py_publisher.cpython-312.pyc\n'}
+[1.087464] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_subscriber.py to py_subscriber.cpython-312.pyc\n'}
+[1.087813] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.087976] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.101767] (-) TimerEvent: {}
+[1.107892] (py_pubsub) StdoutLine: {'line': b"removing '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.108139] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[1.108820] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201859] (-) TimerEvent: {}
+[1.229765] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/astrox/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.229998] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/astrox/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.230148] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/astrox/ros2_ws/build/py_pubsub/install.log'\n"}
+[1.256231] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.267185] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.301982] (-) TimerEvent: {}
+[1.402217] (-) TimerEvent: {}
+[1.502420] (-) TimerEvent: {}
+[1.602656] (-) TimerEvent: {}
+[1.702898] (-) TimerEvent: {}
+[1.803139] (-) TimerEvent: {}
+[1.903424] (-) TimerEvent: {}
+[2.003684] (-) TimerEvent: {}
+[2.103966] (-) TimerEvent: {}
+[2.204199] (-) TimerEvent: {}
+[2.304434] (-) TimerEvent: {}
+[2.404672] (-) TimerEvent: {}
+[2.504905] (-) TimerEvent: {}
+[2.605142] (-) TimerEvent: {}
+[2.705380] (-) TimerEvent: {}
+[2.805609] (-) TimerEvent: {}
+[2.905853] (-) TimerEvent: {}
+[3.006090] (-) TimerEvent: {}
+[3.106358] (-) TimerEvent: {}
+[3.206595] (-) TimerEvent: {}
+[3.306855] (-) TimerEvent: {}
+[3.407113] (-) TimerEvent: {}
+[3.507346] (-) TimerEvent: {}
+[3.607638] (-) TimerEvent: {}
+[3.707888] (-) TimerEvent: {}
+[3.808137] (-) TimerEvent: {}
+[3.908391] (-) TimerEvent: {}
+[4.008640] (-) TimerEvent: {}
+[4.108835] (-) TimerEvent: {}
+[4.163664] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.208962] (-) TimerEvent: {}
+[4.281812] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.309051] (-) TimerEvent: {}
+[4.409311] (-) TimerEvent: {}
+[4.509555] (-) TimerEvent: {}
+[4.609804] (-) TimerEvent: {}
+[4.710052] (-) TimerEvent: {}
+[4.810298] (-) TimerEvent: {}
+[4.910524] (-) TimerEvent: {}
+[5.010739] (-) TimerEvent: {}
+[5.111027] (-) TimerEvent: {}
+[5.211258] (-) TimerEvent: {}
+[5.311459] (-) TimerEvent: {}
+[5.411687] (-) TimerEvent: {}
+[5.511911] (-) TimerEvent: {}
+[5.612134] (-) TimerEvent: {}
+[5.712368] (-) TimerEvent: {}
+[5.812589] (-) TimerEvent: {}
+[5.912784] (-) TimerEvent: {}
+[6.012997] (-) TimerEvent: {}
+[6.113220] (-) TimerEvent: {}
+[6.213418] (-) TimerEvent: {}
+[6.313610] (-) TimerEvent: {}
+[6.413800] (-) TimerEvent: {}
+[6.514027] (-) TimerEvent: {}
+[6.614271] (-) TimerEvent: {}
+[6.714540] (-) TimerEvent: {}
+[6.814766] (-) TimerEvent: {}
+[6.884950] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.914886] (-) TimerEvent: {}
+[7.015149] (-) TimerEvent: {}
+[7.063678] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.071610] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.088803] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.095097] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/astrox/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/astrox/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'astrox', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/astrox', 'OLDPWD': '/home/astrox', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/astrox/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'astrox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrox:@/tmp/.ICE-unix/2818,unix/astrox:/tmp/.ICE-unix/2818', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cee7480f_a4e6_46a3_9efd_77bfe1a61590', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.438', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astrox/ros2_ws/install/py_pubsub:/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrox/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[7.100732] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.100946] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.101972] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[7.102150] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[7.105586] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[7.105791] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch\n'}
+[7.105937] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch/demo.py\n'}
+[7.106039] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.106163] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.106258] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.106388] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.106510] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.106606] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.106701] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.106795] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.106889] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.107008] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.107223] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.107330] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.107694] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.107866] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.107970] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.108167] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.115216] (-) TimerEvent: {}
+[7.134251] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[7.134933] (-) EventReactorShutdown: {}

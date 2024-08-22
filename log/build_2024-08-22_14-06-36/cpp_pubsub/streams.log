@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/astrox/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.053s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/cpp_subscriber.cpp.o[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_publisher.cpp.o[0m
+[4.114s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.237s] [ 75%] Built target talker
+[6.962s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.140s] [100%] Built target listener
+[7.151s] Invoked command in '/home/astrox/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[7.175s] Invoking command in '/home/astrox/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/astrox/ros2_ws/build/cpp_pubsub
+[7.180s] -- Install configuration: ""
+[7.180s] -- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.181s] -- Set non-toolchain portion of runtime path of "/home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.181s] -- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.185s] -- Set non-toolchain portion of runtime path of "/home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[7.185s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch
+[7.185s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch/demo_py.py
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch/demo_cpp.py
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.186s] -- Installing: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.186s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.187s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.187s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.187s] Invoked command in '/home/astrox/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/astrox/ros2_ws/build/cpp_pubsub

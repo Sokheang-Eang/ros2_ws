@@ -1,0 +1,23 @@
+[0.688s] Invoking command in '/home/astrox/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/astrox/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/astrox/ros2_ws/build/py_pubsub/build install --record /home/astrox/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.921s] running egg_info
+[0.939s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.939s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.976s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.976s] adding license file 'LICENSE'
+[0.977s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.977s] running build
+[0.977s] running build_py
+[0.977s] running install
+[0.983s] running install_lib
+[1.001s] running install_data
+[1.001s] running install_egg_info
+[1.020s] removing '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[1.020s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.021s] running install_scripts
+[1.136s] Installing listener script to /home/astrox/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.136s] Installing talker script to /home/astrox/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.136s] writing list of installed files to '/home/astrox/ros2_ws/build/py_pubsub/install.log'
+[1.155s] Invoked command in '/home/astrox/ros2_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/astrox/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/astrox/ros2_ws/build/py_pubsub/build install --record /home/astrox/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

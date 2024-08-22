@@ -1,5 +1,7 @@
 /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
 /home/astrox/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+/home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch/demo_py.py
+/home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub//launch/demo_cpp.py
 /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
 /home/astrox/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
 /home/astrox/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
