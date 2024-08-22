@@ -89,6 +89,7 @@ int main(int argc, char *argv[])
   return 0;
 }
 ```
+> [!NOTE]
 ### run script file
 ```
 ros2 run cpp_pubsub talker
