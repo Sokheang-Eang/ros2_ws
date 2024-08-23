@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/astrox/ros2_ws/build/cpp_script
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_subscriber_node.dir/src/read_data_twist.cpp.o[0m
+[100%] [32m[1mLinking CXX executable twist_subscriber_node[0m
+[100%] Built target twist_subscriber_node
+-- Install configuration: ""
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/lib/cpp_script/twist_subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/astrox/ros2_ws/install/cpp_script/lib/cpp_script/twist_subscriber_node" to ""
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/package_run_dependencies/cpp_script
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/parent_prefix_path/cpp_script
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.sh
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.dsv
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.sh
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.dsv
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.bash
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.sh
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.zsh
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.dsv
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.dsv
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/packages/cpp_script
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig.cmake
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig-version.cmake
+-- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.xml

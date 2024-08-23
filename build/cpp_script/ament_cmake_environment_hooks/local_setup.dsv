@@ -1,0 +1,2 @@
+source;share/cpp_script/environment/ament_prefix_path.sh
+source;share/cpp_script/environment/path.sh

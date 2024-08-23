@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/astrox/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.209s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_publisher.cpp.o[0m
+[0.209s] [ 75%] Built target listener
+[4.013s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.161s] [100%] Built target talker

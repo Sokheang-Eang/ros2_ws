@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000149] (cpp_script) JobQueued: {'identifier': 'cpp_script', 'dependencies': OrderedDict()}
+[0.000168] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000182] (python_script) JobQueued: {'identifier': 'python_script', 'dependencies': OrderedDict()}
+[0.000677] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005002] (cpp_script) JobStarted: {'identifier': 'cpp_script'}
+[0.007687] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.011827] (python_script) JobStarted: {'identifier': 'python_script'}
+[0.016430] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.017776] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.017865] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astrox/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/astrox/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'astrox', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/astrox', 'OLDPWD': '/home/astrox/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2818', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/astrox/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'astrox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrox:@/tmp/.ICE-unix/2779,unix/astrox:/tmp/.ICE-unix/2779', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3f102aae_7400_47fb_9b96_5df8b7b5f50c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astrox/ros2_ws/install/py_pubsub:/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrox/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.019550] (cpp_script) JobProgress: {'identifier': 'cpp_script', 'progress': 'cmake'}
+[0.020135] (cpp_script) Command: {'cmd': ['/usr/bin/cmake', '/home/astrox/ros2_ws/src/cpp_script', '-DCMAKE_INSTALL_PREFIX=/home/astrox/ros2_ws/install/cpp_script'], 'cwd': '/home/astrox/ros2_ws/build/cpp_script', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'astrox', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/astrox', 'OLDPWD': '/home/astrox/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2818', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/astrox/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'astrox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrox:@/tmp/.ICE-unix/2779,unix/astrox:/tmp/.ICE-unix/2779', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3f102aae_7400_47fb_9b96_5df8b7b5f50c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astrox/ros2_ws/install/py_pubsub:/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrox/ros2_ws/build/cpp_script', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrox/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/astrox/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.099912] (-) TimerEvent: {}
+[0.200147] (-) TimerEvent: {}
+[0.209497] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_publisher.cpp.o\x1b[0m\n'}
+[0.209761] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[0.209900] (cpp_script) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.210200] (cpp_script) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.225753] (cpp_script) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.233860] (cpp_script) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.243896] (cpp_script) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255704] (cpp_script) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300258] (-) TimerEvent: {}
+[0.314193] (cpp_script) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.315530] (cpp_script) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.366468] (cpp_script) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400368] (-) TimerEvent: {}
+[0.424410] (cpp_script) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.453189] (cpp_script) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500451] (-) TimerEvent: {}
+[0.533674] (cpp_script) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.533808] (cpp_script) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.533875] (cpp_script) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.534406] (cpp_script) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.535314] (cpp_script) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.535412] (cpp_script) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.535794] (cpp_script) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.536664] (cpp_script) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.539156] (cpp_script) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[0.539286] (cpp_script) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.539352] (cpp_script) StderrLine: {'line': b'\n'}
+[0.539414] (cpp_script) StderrLine: {'line': b'    src/twist_subscriber_node.cpp\n'}
+[0.539472] (cpp_script) StderrLine: {'line': b'\n'}
+[0.539530] (cpp_script) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[0.539588] (cpp_script) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[0.539645] (cpp_script) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[0.539701] (cpp_script) StderrLine: {'line': b'\n'}
+[0.539757] (cpp_script) StderrLine: {'line': b'\x1b[0m\n'}
+[0.542005] (cpp_script) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[0.542114] (cpp_script) StderrLine: {'line': b'  No SOURCES given to target: twist_subscriber_node\n'}
+[0.542182] (cpp_script) StderrLine: {'line': b'\n'}
+[0.542242] (cpp_script) StderrLine: {'line': b'\x1b[0m\n'}
+[0.542300] (cpp_script) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[0.548312] (cpp_script) CommandEnded: {'returncode': 1}
+[0.561919] (cpp_script) JobEnded: {'identifier': 'cpp_script', 'rc': 1}
+[0.600533] (-) TimerEvent: {}
+[0.700759] (-) TimerEvent: {}
+[0.800997] (-) TimerEvent: {}
+[0.901227] (-) TimerEvent: {}
+[0.941399] (python_script) JobEnded: {'identifier': 'python_script', 'rc': 'SIGINT'}
+[0.941706] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[1.001353] (-) TimerEvent: {}
+[1.101595] (-) TimerEvent: {}
+[1.201833] (-) TimerEvent: {}
+[1.302075] (-) TimerEvent: {}
+[1.402304] (-) TimerEvent: {}
+[1.502545] (-) TimerEvent: {}
+[1.602854] (-) TimerEvent: {}
+[1.703096] (-) TimerEvent: {}
+[1.803298] (-) TimerEvent: {}
+[1.903534] (-) TimerEvent: {}
+[2.003732] (-) TimerEvent: {}
+[2.103960] (-) TimerEvent: {}
+[2.204228] (-) TimerEvent: {}
+[2.304445] (-) TimerEvent: {}
+[2.404661] (-) TimerEvent: {}
+[2.504874] (-) TimerEvent: {}
+[2.605127] (-) TimerEvent: {}
+[2.705358] (-) TimerEvent: {}
+[2.805556] (-) TimerEvent: {}
+[2.905818] (-) TimerEvent: {}
+[3.006059] (-) TimerEvent: {}
+[3.106267] (-) TimerEvent: {}
+[3.206525] (-) TimerEvent: {}
+[3.306717] (-) TimerEvent: {}
+[3.406964] (-) TimerEvent: {}
+[3.507199] (-) TimerEvent: {}
+[3.607456] (-) TimerEvent: {}
+[3.707684] (-) TimerEvent: {}
+[3.807913] (-) TimerEvent: {}
+[3.908163] (-) TimerEvent: {}
+[4.008356] (-) TimerEvent: {}
+[4.014088] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.108447] (-) TimerEvent: {}
+[4.161579] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[4.169723] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 'SIGINT'}
+[4.170411] (-) EventReactorShutdown: {}

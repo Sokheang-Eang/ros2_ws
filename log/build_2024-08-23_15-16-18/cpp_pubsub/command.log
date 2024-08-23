@@ -1,0 +1,1 @@
+Invoking command in '/home/astrox/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_pubsub -- -j12 -l12

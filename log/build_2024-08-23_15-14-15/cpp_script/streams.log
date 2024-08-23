@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/astrox/ros2_ws/build/cpp_script': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/astrox/ros2_ws/src/cpp_script -DCMAKE_INSTALL_PREFIX=/home/astrox/ros2_ws/install/cpp_script
+[0.107s] -- The C compiler identification is GNU 13.2.0
+[0.180s] -- The CXX compiler identification is GNU 13.2.0
+[0.196s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.572s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.757s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.826s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.842s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.072s] -- Configuring done (1.1s)
+[1.073s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.073s]   Cannot find source file:
+[1.074s] 
+[1.074s]     src/twist_subscriber_node.cpp
+[1.074s] 
+[1.074s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.074s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.074s]   .f95 .f03 .hip .ispc
+[1.074s] 
+[1.074s] [0m
+[1.075s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.075s]   No SOURCES given to target: twist_subscriber_node
+[1.076s] 
+[1.076s] [0m
+[1.076s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.081s] Invoked command in '/home/astrox/ros2_ws/build/cpp_script' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/astrox/ros2_ws/src/cpp_script -DCMAKE_INSTALL_PREFIX=/home/astrox/ros2_ws/install/cpp_script

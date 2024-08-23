@@ -1,0 +1,10 @@
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/uninstall.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/cpp_script_uninstall.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/twist_subscriber_node.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/test.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/edit_cache.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/rebuild_cache.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/list_install_components.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/install.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/install/local.dir
+/home/astrox/ros2_ws/build/cpp_script/CMakeFiles/install/strip.dir

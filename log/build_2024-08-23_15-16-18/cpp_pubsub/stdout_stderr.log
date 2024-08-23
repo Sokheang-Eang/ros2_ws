@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_publisher.cpp.o[0m
+[ 75%] Built target listener
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker

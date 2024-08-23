@@ -1,0 +1,16 @@
+/home/astrox/ros2_ws/install/cpp_script/lib/cpp_script/twist_subscriber_node
+/home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/package_run_dependencies/cpp_script
+/home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/parent_prefix_path/cpp_script
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.sh
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.dsv
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.sh
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.dsv
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.bash
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.sh
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.zsh
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.dsv
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.dsv
+/home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/packages/cpp_script
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig.cmake
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig-version.cmake
+/home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.xml
