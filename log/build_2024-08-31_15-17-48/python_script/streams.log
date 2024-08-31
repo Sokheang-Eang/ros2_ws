@@ -1,0 +1,19 @@
+[0.961s] Invoking command in '/home/astrox/ros2_ws/src/python_script': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/astrox/ros2_ws/build/python_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrox/ros2_ws/install/python_script/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_script build --build-base /home/astrox/ros2_ws/build/python_script/build install --record /home/astrox/ros2_ws/build/python_script/install.log --single-version-externally-managed install_data
+[1.211s] running egg_info
+[1.230s] writing ../../build/python_script/python_script.egg-info/PKG-INFO
+[1.230s] writing dependency_links to ../../build/python_script/python_script.egg-info/dependency_links.txt
+[1.230s] writing requirements to ../../build/python_script/python_script.egg-info/requires.txt
+[1.231s] writing top-level names to ../../build/python_script/python_script.egg-info/top_level.txt
+[1.270s] reading manifest file '../../build/python_script/python_script.egg-info/SOURCES.txt'
+[1.271s] writing manifest file '../../build/python_script/python_script.egg-info/SOURCES.txt'
+[1.271s] running build
+[1.271s] running build_py
+[1.272s] running install
+[1.279s] running install_lib
+[1.302s] running install_data
+[1.302s] running install_egg_info
+[1.323s] removing '/home/astrox/ros2_ws/install/python_script/lib/python3.12/site-packages/python_script-0.0.0-py3.12.egg-info' (and everything under it)
+[1.323s] Copying ../../build/python_script/python_script.egg-info to /home/astrox/ros2_ws/install/python_script/lib/python3.12/site-packages/python_script-0.0.0-py3.12.egg-info
+[1.324s] running install_scripts
+[1.447s] writing list of installed files to '/home/astrox/ros2_ws/build/python_script/install.log'
+[1.482s] Invoked command in '/home/astrox/ros2_ws/src/python_script' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/astrox/ros2_ws/build/python_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrox/ros2_ws/install/python_script/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_script build --build-base /home/astrox/ros2_ws/build/python_script/build install --record /home/astrox/ros2_ws/build/python_script/install.log --single-version-externally-managed install_data

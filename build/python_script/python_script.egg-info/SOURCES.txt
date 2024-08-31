@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/python_script/python_script.egg-info/PKG-INFO
+../../build/python_script/python_script.egg-info/SOURCES.txt
+../../build/python_script/python_script.egg-info/dependency_links.txt
+../../build/python_script/python_script.egg-info/requires.txt
+../../build/python_script/python_script.egg-info/top_level.txt
+../../build/python_script/python_script.egg-info/zip-safe
+python_script/__init__.py
+resource/python_script
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -8,12 +8,12 @@ def generate_launch_description():
             package='cpp_pubsub',        
             executable='talker',            
             name='publisher_cpp',                       
-            #output='screen'        
+            output='screen'        
         ),
         Node(
             package='cpp_pubsub',        
             executable='listener',            
             name='subscriber_cpp',                       
-            #output='screen'                    
+            output='screen'                    
         )
     ])

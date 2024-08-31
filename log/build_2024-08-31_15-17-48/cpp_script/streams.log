@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/astrox/ros2_ws/build/cpp_script': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_script -- -j12 -l12
+[0.210s] [100%] Built target twist_subscriber_node
+[0.422s] Invoked command in '/home/astrox/ros2_ws/build/cpp_script' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/astrox/ros2_ws/build/cpp_script -- -j12 -l12
+[0.445s] Invoking command in '/home/astrox/ros2_ws/build/cpp_script': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/astrox/ros2_ws/build/cpp_script
+[0.451s] -- Install configuration: ""
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/lib/cpp_script/twist_subscriber_node
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/package_run_dependencies/cpp_script
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/parent_prefix_path/cpp_script
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.sh
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/ament_prefix_path.dsv
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.sh
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/environment/path.dsv
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.bash
+[0.451s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.sh
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.zsh
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/local_setup.dsv
+[0.452s] -- Installing: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.dsv
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/ament_index/resource_index/packages/cpp_script
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig.cmake
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/cmake/cpp_scriptConfig-version.cmake
+[0.452s] -- Up-to-date: /home/astrox/ros2_ws/install/cpp_script/share/cpp_script/package.xml
+[0.454s] Invoked command in '/home/astrox/ros2_ws/build/cpp_script' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astrox/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/astrox/ros2_ws/build/cpp_script
